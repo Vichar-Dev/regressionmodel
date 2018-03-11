@@ -15,7 +15,7 @@ Using regression models and exploratory data analyses, we want to mainly explore
 
 The initial t-test results shows that there is a performance difference between cars with automatic and manual transmission. And it is about 7 MPG more for cars with manual transmission than those with automatic transmission. Then, we fit several linear regression models and select the one with highest Adjusted R-squared value. So, given that weight and 1/4 mile time are held constant, manual transmitted cars are 14.079 + (-4.141)*weight more MPG (miles per gallon) on average better than automatic transmitted cars. Thus, cars that are lighter in weight with a manual transmission and cars that are heavier in weight with an automatic transmission will have higher MPG values.
 
-The source code for this document can be retrieved from [my GitHub account](https://github.com/Vichar-Dev/regressionmodel.git).
+The source code for this document can be retrieved from [my GitHub account](https://github.com/Vichar-Dev/regressionmodel).
 
 ## Exploratory Data Analysis  
 First, data set `mtcars` is loaded and some variables are of `numeric` class which we changed to `factor` class.
